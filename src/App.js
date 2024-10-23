@@ -1,8 +1,8 @@
 import 'font-awesome/css/font-awesome.min.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';  
-import LoginPage from './LoginPage';
-import Dashboard from './Dashboard';
+import LoginPage from './components/LoginPage';
+import Dashboard from './components/Dashboard';
 
 function App() {
   return (

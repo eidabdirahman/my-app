@@ -1,8 +1,8 @@
 
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import irshaad from './images/logo/irshaad.png';
-import loginBanner from './images/logo/loging_banner.png';
+import irshaad from '../images/logo/irshaad.png';
+import loginBanner from '../images/logo/loging_banner.png';
 
 const LoginPage = () => {
   const navigate = useNavigate();

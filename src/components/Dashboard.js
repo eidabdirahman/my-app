@@ -1,4 +1,5 @@
-import userImage from './images/student.jpg';
+import LoginPage from './LoginPage';
+import userImage from '../images/student.jpg';
 const Dashboard = () => {
   return (
     <div className="min-h-screen flex">
@@ -25,7 +26,7 @@ const Dashboard = () => {
           <a href="#users" className="block py-2.5 px-4 hover:bg-green-500">
             Users
           </a>
-          <a href="#logout" className="block py-2.5 px-4 hover:bg-green-500">
+          <a href={LoginPage} className="block py-2.5 px-4 hover:bg-green-500">
             Log Out
           </a>
         </nav>
